@@ -1,0 +1,210 @@
+/* Modal popup start */
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #4f4f4f;
+  border-radius: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  }
+  .button:hover {
+    color: #fff;
+    background-color: #4f4f4f;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 0.5s;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 80%;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .popup h2 {
+    margin: 10px;
+    margin-top: 0;
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+  }
+
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #333;
+  }
+
+  .popup .content {
+    overflow: auto;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 80%;
+    }
+    .popup{
+      width: 80%;
+    }
+  }
+
+  /* Modal popup slut */
+
+  * {
+    max-width: 800px;
+  }
+
+  body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+    line-height: 1.4em;
+    background: linear-gradient(#fff, #dfd);
+    background-repeat: no-repeat;
+    min-height: 60em;
+  }
+
+  a:link {
+  color: #00549b;
+  }
+
+  a:hover {
+  color: #00f;
+  }
+
+  a:active {
+  color: #660066;
+  }
+
+  a:focus {
+    border: solid #464646 2px;
+  }
+
+  header {
+    text-align: center;
+    width: 100%;
+  }
+
+  #banner {
+    max-width: 700px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
+    height: 100%;
+    overflow: auto;
+  }
+
+  nav li {
+    display: inline;;
+  }
+
+  nav a {
+    color: #005200;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding: 16px;;
+    font-size: 1.2rem;
+  }
+
+  nav a:hover {
+    color: #000;
+    background-color: #9c9c9c;
+  }
+
+  nav a:active {
+    color: #660066;
+    background-color: #ccc;
+  }
+
+  .aktiv {
+    color: #fff;
+    background-color: #4f4f4f;
+  }
+
+  @media screen and (max-width: 800px) {
+    nav a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+  .main {
+    min-height: 200vh;
+    max-width: 1000px;
+  }
+
+  .kolumner {
+    column-count: 2;
+    column-width: 380px;
+  }
+  
+  ul {
+    list-style-type: circle;
+  }
+  
+  h1, h2, h3 {
+    color:#333;
+    font-family: Fondamento, serif;
+  }
+
+  h1, h2 {
+    text-align: center;
+  }
+
+
+  li, p {
+    text-align: left;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .minibilder {
+    width: 200px;
+  }
+
+  .bilder {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  #easteregg {
+    background-color: red;
+  }
+  
+  hr {
+    margin-top: 3em;
+  }

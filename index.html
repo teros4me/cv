@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" type="text/css" media="all">
+  <link href="print.css" rel="stylesheet" type="text/css" media="print">
+  <link href='https://fonts.googleapis.com/css?family=Fondamento' rel='stylesheet'>
+  
+  <title>Elijas CV</title>
+</head>
+<body>
+<header>
+  <img src="okarta_banner.png" id="banner" alt="Karta över en påhittad ö">
+  <nav>
+    <ul>
+      <li><a class="aktiv" href="index.html">Start</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="om.html">Om mig</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="riktlinjer.html">Webbriktlinjer</a></li>
+    </ul>
+  </nav>
+</header>
+<section class="main">
+  <h1>Elijas Anderssons portfolio</h1>
+  <img src="funas2.jpg" class="bilder" alt="Elijas åker skidor i fjällen">
+  <h2>Välkommen till min sida!</h2>
+  <p class="center">Här hittar du information om mig och mina meriter.</p>
+  <p class="center">Skriv in en siffra:<input id="numberInput" type="number"/></p>
+  <script>
+    let inputElement = document.getElementById('numberInput');
+    inputElement.addEventListener('input', function(){
+      alert("Hejsan" + "\n" + "Det här är ett påskägg!");
+    });
+  </script>
+</section>
+</body>
+</html>

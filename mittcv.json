@@ -1,0 +1,48 @@
+[
+  {"Utbildningar": "Systemutvecklare .NET med AI-kompetens, YH-utbildning, Edugrade, Hudiksvall sep 2021 - pågående",
+    "utb5": "Mobila System och GIT, YH-utbildning, distans, Ocellus Information Systems, Uppsala sep 2019 – jun 2021",
+    "utb4": "Uthålligt Skogsbruk, deltid, distans, Sommenbygdens Folkhögskola, Tranås sep 2018 – jun 2019",
+    "utb3": "Folkhögskola, allmän linje, Eslövs Folkhögskola, Eslöv aug 2008 – jun 2009",
+    "utb2": "Folkhögskola, allmän linje, friskvårdsprofil, Ingesunds Folkhögskola, Arvika aug 2002 – jun 2004",
+    "utb1": "Naturbruksgymnasium, Berga Naturbruksgymn., Västerhaninge aug 1998 – jun 2000"}
+  ,
+  {"Arbetslivserfarenhet": "GIS, praktik, distans, X-trafik, Söderhamn, Skapade bakgrundskartor m.m. i MapInfo, QGIS och Solen Pro. feb 2021 – apr 2021",
+    "arb8": "GIS, praktik, distans, Holmen Skog, Delsbo, Konfigurerade appar för väginventering och vägunderhåll i ArcGIS Online. apr 2020 – jun 2020",
+    "arb7": "Taxichaufför, Marias Taxi, Delsbo aug 2019 – pågående",
+    "arb6": "Taxichaufför, Hudiksvalls Taxi AB, Hudiksvall dec 2016 – 2018",
+    "arb5": "Färdtjänstförare, Västra Ämterviks Taxi, Sunne sep 2014 – juni 2016",
+    "arb4": "Taxichaufför, Taxi Malung, Malung-Sälen, feb 2014 – aug 2014",
+    "arb3": "Parkarbetare, praktik, Arvika Fastighet, Arvika maj 2013 – aug 2013",
+    "arb2": "Vaktmästare, praktik, IOGT-NTO, Arvika nov 2011 – okt 2012",
+    "arb1": "Taxichaufför, Arvika-Eda Taxitransp., Arvika apr 2005 – jun 2007"}
+  ,
+  {"Datorkunskaper": "C#",
+    "it20": "Objektorienterad programmering",
+    "it19": "Databaser",
+    "it18": "SQL",
+    "it17": "HTML",
+    "it16": "CSS",
+    "it15": "Javascript",
+    "it14": "XML",
+    "it13": "Java",
+    "it12": "ArcMap",
+    "it11": "ArcGIS Online",
+    "it10": "MapInfo",
+    "it9": "QGIS",
+    "it8": "Solen Pro",
+    "it7": "Solen Admin",
+    "it6": "Multispec",
+    "it5": "Geoserver",
+    "it4": "Google maps",
+    "it3": "Mapbox",
+    "it2": "Android Studio",
+    "it1": "Office 365"}
+  ,
+  {"Språk": "Svenska - modersmål",
+  "spr1": "Engelska - goda kunskaper"}
+  ,
+  {"Övrigt": "B-körkort",
+  "ovr2": "Taxilegitimation",
+  "ovr1": "Förarcert. Serviceresor"
+}
+]
