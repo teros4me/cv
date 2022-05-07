@@ -77,11 +77,14 @@
 
   /* Modal popup slut */
 
-  * {
+  .centrera {
     max-width: 800px;
+    margin: 0 auto;
+    
   }
 
   body {
+    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
     line-height: 1.4em;
     background: linear-gradient(#fff, #dfd);
